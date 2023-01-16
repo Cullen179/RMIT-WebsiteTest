@@ -1,0 +1,43 @@
+:root {
+    --RMIT_Blue: rgb(0, 0, 84);
+    --RMIT_Red: rgb(230, 30, 42);
+    --RMIT_Yellow: rgb(250, 200, 0);
+    --color-black: rgb(0, 0, 0);
+    --color-white: rgb(255, 255, 255);
+}
+
+
+#link {
+    color: var(--RMIT_Red);
+}
+
+.flex_container {
+    display: flex;
+    background-color: var(--RMIT_Blue);
+
+}
+
+.flex_item {
+    color: var(--color-white);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+th, td {
+    border: 1px solide black;
+}
+
+th {
+    background-color: var(--RMIT_Red);
+    color: var(--color-white);
+}
+
+td {
+    background-color: var(--RMIT_Yellow);
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
